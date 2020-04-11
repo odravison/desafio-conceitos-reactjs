@@ -37,3 +37,21 @@ div li button {
   margin: 0 15px;
   background: #ca4949;
 }
+
+.float-right {
+  float: right;
+}
+
+label::after {
+  content: '\00a0';
+}
+
+.add-repository-form-content {
+  margin: 15px 0;
+  width: 30%;
+}
+
+form > label + input{
+  width: 100%;
+  margin-bottom: 10px;
+}
