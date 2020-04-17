@@ -23,7 +23,7 @@ describe("App component", () => {
 
     apiMock.onGet("repositories").reply(200, []);
 
-    apiMock.onPost("repositories").reply(201, {
+    apiMock.onPost("repositories").reply(200, {
       id: "123",
       url: "https://github.com/josepholiveira",
       title: "Desafio ReactJS",

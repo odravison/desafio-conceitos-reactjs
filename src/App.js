@@ -44,7 +44,7 @@ function App() {
       url
     };
     const response = await api.post('/repositories', newRepository);
-    if (response.status === 201){
+    if (response.status === 200){
       setRepositories([...repositories, response.data]);
       clearForm();
     }
